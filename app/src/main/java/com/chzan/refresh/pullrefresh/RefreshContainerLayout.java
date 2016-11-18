@@ -348,6 +348,10 @@ public class RefreshContainerLayout extends FrameLayout {
             refreshFooterLayout.onPullingRefresh(mContainerView.getTop(), finishHeight, pullState);
     }
 
+    /**
+     * 刷新监听接口
+     * @param listener
+     */
     public void setOnRefreshListener(RefreshContainerLayout.OnRefreshListener listener) {
         mOnRefreshListener = listener;
     }
