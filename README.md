@@ -1,0 +1,2 @@
+#简单的上拉下拉容器
+主要使用view的offsetTopAndBottom(int offset)方法
